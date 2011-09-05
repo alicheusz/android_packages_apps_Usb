@@ -378,7 +378,7 @@ public class UsbService extends Service
         }
 
         String stateFileName = getResources().getString(R.string.current_usb_state_file_name);
-        if (stateFileName != null && !stateFileName.isEmpty()) {
+        if (stateFileName != null && stateFileName.length() != 0) {
             mCurrentStateFile = new File(stateFileName);
         }
 

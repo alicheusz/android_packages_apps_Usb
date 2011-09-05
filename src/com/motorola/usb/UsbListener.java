@@ -93,7 +93,7 @@ public final class UsbListener implements Runnable
     private void handleEvent(String event) {
         Log.d(TAG, "handleEvent: " + event);
 
-        if (event.isEmpty()) {
+        if (event.length() == 0) {
             Log.d(TAG, "discard invalid event from USBD");
             return;
         }
