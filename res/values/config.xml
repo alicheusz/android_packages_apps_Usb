@@ -18,15 +18,15 @@
          - usb_mode_override_modes contains the mode strings
          - usb_mode_override_adb_modes contains the mode strings for ADB mode -->
     <integer-array name="usb_mode_override_values">
-        <!-- example: <item>5</item> -->
+        <item>5</item>
     </integer-array>
 
     <string-array name="usb_mode_override_modes">
-        <!-- example: <item>usb_mode_msc</item> -->
+        <item>usb_mode_msc</item>
     </string-array>
 
     <string-array name="usb_mode_override_adb_modes">
-        <!-- example: <item>usb_mode_msc_adb</item> -->
+        <item>usb_mode_msc_adb</item>
     </string-array>
 
     <!-- Default mode USB if nothing was configured by the user yet -->
